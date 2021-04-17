@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && grunt",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
@@ -18,6 +18,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "grunt": "^1.3.0",
+    "grunt-assets-inline": "^1.2.4",
+    "grunt-cli": "^1.4.2",
     "sirv-cli": "^1.0.0"
   }
 }
